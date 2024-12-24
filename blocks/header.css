@@ -1,0 +1,23 @@
+.header {
+  max-width: 254.84px;
+  max-height: 68.94px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__logo {
+  width: 12.55%;
+  height: calc(width * 1);
+  margin-top: 34px;
+  margin-left: 245.02%;
+  margin-bottom: 0;
+}
+
+.header__vector {
+  width: 100%;
+  height: calc(5.86% * width);
+  margin-top: 22px;
+  margin-left: 201.3%;
+}

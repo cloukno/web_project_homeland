@@ -1,0 +1,56 @@
+.article {
+  max-width: 830px;
+  max-height: 607px;
+  padding-top: 92px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article__title {
+  width: 100%;
+  max-height: 173.92px;
+  margin-top: 92px;
+  margin-left: 17.83%;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107.4%;
+  color: #ffffff;
+}
+
+.article__quote {
+  width: 89%;
+  max-height: 135.66px;
+  margin-top: 40px;
+  margin-left: 17.83%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 141.66%;
+  color: #ffffff;
+}
+
+.article__name-author {
+  width: 88.19%;
+  max-height: 33.91px;
+  margin-top: 10px;
+  margin-left: 17.83%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 141.66%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.article__content {
+  width: 87%;
+  max-height: 181.54px;
+  margin-top: 32px;
+  margin-left: 17.83%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;
+}
