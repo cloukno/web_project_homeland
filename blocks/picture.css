@@ -1,0 +1,9 @@
+.picture__image {
+  width: 76.87%;
+  max-height: 62.5%;
+  block-size: auto;
+  object-fit: contain;
+  margin-top: 64px;
+  margin-left: 11.56%;
+  object-fit: fill;
+}

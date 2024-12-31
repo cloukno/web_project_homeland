@@ -1,7 +1,5 @@
 .article {
   max-width: 830px;
-  max-height: 607px;
-  padding-top: 92px;
   display: flex;
   flex-direction: column;
 }
@@ -11,6 +9,7 @@
   max-height: 173.92px;
   margin-top: 92px;
   margin-left: 17.83%;
+  margin-bottom: 0;
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 54px;
@@ -23,6 +22,7 @@
   max-height: 135.66px;
   margin-top: 40px;
   margin-left: 17.83%;
+  margin-bottom: 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -35,6 +35,7 @@
   max-height: 33.91px;
   margin-top: 10px;
   margin-left: 17.83%;
+  margin-bottom: 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -48,6 +49,7 @@
   max-height: 181.54px;
   margin-top: 32px;
   margin-left: 17.83%;
+  margin-bottom: 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
