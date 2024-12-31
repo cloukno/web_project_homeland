@@ -1,0 +1,35 @@
+.hometown {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.hometown__title {
+  width: 73.17%;
+  max-height: 200px;
+  margin-top: 91.06px;
+  margin-left: 28.45%;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104.16%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hometown__subtitle {
+  width: 73.17%;
+  max-height: 72px;
+  margin-top: 32px;
+  margin-left: 28.45%;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
