@@ -41,7 +41,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 768px;
   }
 
@@ -50,6 +50,7 @@
     max-height: 62.5%;
     margin-top: 30px;
     margin-left: 0;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -145,7 +146,7 @@
     line-height: 125%;
   }
 
-  picture {
+  .picture {
     max-width: 320px;
   }
 
@@ -154,6 +155,7 @@
     max-height: 62.5%;
     margin-top: 40px;
     margin-left: 0;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -247,7 +249,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 544px;
   }
 
@@ -256,6 +258,7 @@
     max-height: 62.5%;
     margin-top: 35px;
     margin-left: 0;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -349,7 +352,7 @@
     line-height: 121.04%;
   }
 
-  picture {
+  .picture {
     max-width: 470px;
   }
 
@@ -358,6 +361,7 @@
     max-height: 62.5%;
     margin-top: 36.65px;
     margin-left: 0;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -451,7 +455,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 665px;
   }
 
@@ -460,6 +464,7 @@
     max-height: 62.5%;
     margin-top: 32.29px;
     margin-left: 0;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -553,7 +558,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 865.45px;
   }
 
@@ -562,6 +567,7 @@
     max-height: 62.5%;
     margin-top: 45.34px;
     margin-left: 7.71%;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -655,7 +661,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 908.06px;
   }
 
@@ -664,6 +670,7 @@
     max-height: 62.5%;
     margin-top: 50.88px;
     margin-left: 10.57%;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -757,7 +764,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 876px;
   }
 
@@ -766,6 +773,7 @@
     max-height: 62.5%;
     margin-top: 47px;
     margin-left: 8.44%;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
@@ -856,7 +864,7 @@
     line-height: 120%;
   }
 
-  picture {
+  .picture {
     max-width: 1076.81px;
   }
 
@@ -865,6 +873,7 @@
     max-height: 62.5%;
     margin-top: 80.03px;
     margin-left: 19.65%;
+    -o-object-fit: fill;
     object-fit: fill;
   }
 
