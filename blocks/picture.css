@@ -1,9 +1,13 @@
+.picture {
+  max-width: 984px;
+}
+
 .picture__image {
-  width: 76.87%;
+  width: 100%;
   max-height: 62.5%;
   block-size: auto;
   object-fit: contain;
   margin-top: 64px;
-  margin-left: 11.56%;
+  margin-left: 15.04%;
   object-fit: fill;
 }

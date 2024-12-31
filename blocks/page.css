@@ -1,6 +1,4 @@
 .page {
-  max-width: 1280px;
-  height: 2008px;
   margin: 0 auto;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -11,5 +9,5 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   background-color: #2a2c2f;
-  position: relative;
+  background-size: contain;
 }
