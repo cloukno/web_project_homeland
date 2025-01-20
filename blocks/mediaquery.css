@@ -101,6 +101,338 @@
     font-size: 14px;
     line-height: 114.28%;
   }
+
+  .mosaic {
+    max-width: 720px;
+    margin-top: 64px;
+    max-height: 1104px;
+  }
+
+  .mosaic__align {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-left: 3.33%;
+  }
+
+  .mosaic__align_item {
+    max-height: 264px;
+    margin-left: 0;
+  }
+
+  .cities1 {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+
+  .align1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 116px 340px 179px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 28px;
+    margin-left: 3.33%;
+  }
+
+  .align1__title {
+    width: 98.266%;
+    max-height: 46px;
+    font-size: 42px;
+    line-height: 109.52%;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 0;
+  }
+
+  .align1__picture {
+    width: 98.266%;
+    max-height: 340px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align1__picture:hover {
+    width: 98.266%;
+    max-height: 340px;
+  }
+  .align1__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align1__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description1 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description1__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description1__artist-name {
+    letter-spacing: 0;
+  }
+
+  .description11 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description11__paragraph1 {
+    font-size: 16px;
+  }
+
+  .description11__paragraph2 {
+    font-size: 16px;
+  }
+
+  .cities2 {
+    max-width: 720px;
+    margin-top: 72px;
+  }
+
+  .align2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 94px 340px 161px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 28px;
+    margin-left: 3.33%;
+  }
+
+  .align2__title {
+    width: 98.266%;
+    max-height: 46px;
+    font-size: 42px;
+    line-height: 109.52%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .align2__picture {
+    width: 98.266%;
+    max-height: 340px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align2__picture:hover {
+    width: 98.266%;
+    max-height: 340px;
+  }
+  .align2__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align2__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description2 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: -6px;
+    margin-top: 0;
+  }
+
+  .description2__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description2__artist-name {
+    letter-spacing: 0;
+  }
+
+  .description22 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description22__paragraph1 {
+    font-size: 16px;
+  }
+
+  .description22__paragraph2 {
+    font-size: 16px;
+  }
+
+  .cities3 {
+    max-width: 720px;
+    margin-top: 72px;
+  }
+
+  .align3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 140px 340px 412px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 28px;
+    margin-left: 3.33%;
+  }
+
+  .align3__title {
+    width: 98.266%;
+    max-height: 46px;
+    font-size: 42px;
+    line-height: 109.52%;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 0;
+  }
+
+  .align3__picture {
+    width: 98.266%;
+    max-height: 340px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align3__picture:hover {
+    width: 98.266%;
+    max-height: 340px;
+  }
+  .align3__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align3__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description3 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: -6px;
+    margin-top: 48px;
+  }
+
+  .description3__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description3__artist-name {
+    letter-spacing: 0;
+  }
+
+  .description33 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description33__paragraph1 {
+    font-size: 16px;
+  }
+
+  .description33__paragraph2 {
+    font-size: 16px;
+  }
+
+  .description33__paragraph3 {
+    font-size: 16px;
+  }
+
+  .cities4 {
+    max-width: 720px;
+    margin-top: 72px;
+  }
+
+  .align4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 130px 225px 305px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 28px;
+    margin-left: 3.33%;
+  }
+
+  .align4__title {
+    width: 98.266%;
+    max-height: 46px;
+    font-size: 42px;
+    line-height: 109.52%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .align4__picture {
+    width: 98.266%;
+    max-height: 340px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align4__picture:hover {
+    width: 98.266%;
+    max-height: 340px;
+  }
+  .align4__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align4__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description4 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: -6px;
+    margin-top: 45px;
+  }
+
+  .description4__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description4__artist-name {
+    letter-spacing: 0;
+  }
+
+  .description44 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description44__paragraph1 {
+    font-size: 16px;
+  }
+
+  .description44__paragraph2 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -206,8 +538,461 @@
     font-size: 14px;
     line-height: 100%;
   }
-}
 
+  .mosaic {
+    max-width: 288px;
+    max-height: 1812px;
+    margin-top: 38px;
+  }
+
+  .mosaic__align {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    row-gap: 12px;
+    margin-left: 5.55%;
+  }
+
+  .mosaic__align_item {
+    max-height: 216px;
+    margin-left: 0;
+  }
+
+  .cities1 {
+    max-width: 320px;
+    margin-top: 62px;
+  }
+
+  .align1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 65px 119px 320px 688px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    row-gap: 12px;
+    margin-left: 0;
+  }
+
+  .align1__title {
+    width: 90%;
+    max-height: 35px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 109.37%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+
+  .description1 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 100%;
+    margin-left: 5.55%;
+  }
+
+  .description1__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description1__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align1__picture {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .align1__picture:hover {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .description11 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .description11__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description11__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align1__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .align1__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+    margin-left: 5.55%;
+  }
+
+  .cities2 {
+    max-width: 320px;
+    margin-top: 50px;
+  }
+
+  .align2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 65px 75px 320px 679px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    row-gap: 12px;
+    margin-left: 0;
+  }
+
+  .align2__title {
+    width: 90%;
+    max-height: 35px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 109.37%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+
+  .description2 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 100%;
+    margin-left: 5.55%;
+  }
+
+  .description2__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description2__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align2__picture {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .align2__picture:hover {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .description22 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .description22__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description22__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align2__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .align2__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+    margin-left: 5.55%;
+  }
+
+  .cities3 {
+    max-width: 320px;
+    margin-top: 50px;
+  }
+
+  .align3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 97px 320px 964px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    row-gap: 12px;
+    margin-left: 0;
+  }
+
+  .align3__title {
+    width: 90%;
+    max-height: 35px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 109.37%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+
+  .description3 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 100%;
+    margin-left: 5.55%;
+  }
+
+  .description3__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description3__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align3__picture {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .align3__picture:hover {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .description33 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .description33__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description33__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .description33__paragraph3 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align3__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .align3__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+    margin-left: 5.55%;
+  }
+
+  .cities4 {
+    max-width: 320px;
+    margin-top: 50px;
+  }
+
+  .align4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 97px 212px 710px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    row-gap: 12px;
+    margin-left: 0;
+  }
+
+  .align4__title {
+    width: 90%;
+    max-height: 35px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 109.37%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+
+  .description4 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 100%;
+    margin-left: 5.55%;
+  }
+
+  .description4__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description4__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align4__picture {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .align4__picture:hover {
+    width: 100%;
+    max-height: 320px;
+    grid-area: picture;
+  }
+
+  .description44 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .description44__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description44__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align4__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+    margin-left: 5.55%;
+  }
+
+  .align4__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+    margin-left: 5.55%;
+  }
+}
 @media screen and (max-width: 544px) and (min-width: 471px) {
   .header {
     max-width: 221px;
@@ -308,6 +1093,431 @@
     margin-top: 86px;
     font-size: 14px;
     line-height: 114.29%;
+  }
+
+  .mosaic {
+    max-width: 320px;
+    max-height: 2018px;
+    margin-top: 51px;
+  }
+
+  .mosaic__align {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    row-gap: 14px;
+    margin-left: 35%;
+  }
+
+  .mosaic__align_item {
+    max-height: 240px;
+    margin-left: 0;
+  }
+
+  .cities1 {
+    max-width: 330px;
+    margin-top: 75px;
+  }
+
+  .align1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 105px 133px 330px 605px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    margin-left: 33.94%;
+  }
+
+  .align1__title {
+    max-height: 37px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 109.45%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .description1 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 95.15%;
+  }
+
+  .description1__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description1__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align1__picture {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .align1__picture:hover {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .description11 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .description11__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description11__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align1__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+  }
+
+  .align1__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+  }
+
+  .cities2 {
+    max-width: 330px;
+    margin-top: 75px;
+  }
+
+  .align2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 72px 92px 330px 570px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    margin-left: 33.94%;
+  }
+
+  .align2__title {
+    max-height: 37px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 109.45%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .description2 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 95.15%;
+  }
+
+  .description2__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description2__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align2__picture {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .align2__picture:hover {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .description22 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .description22__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description22__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align2__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+  }
+
+  .align2__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+  }
+
+  .cities3 {
+    max-width: 330px;
+    margin-top: 75px;
+  }
+
+  .align3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 105px 92px 330px 835px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    margin-left: 33.94%;
+  }
+
+  .align3__title {
+    max-height: 37px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 109.45%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .description3 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 95.15%;
+  }
+
+  .description3__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description3__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align3__picture {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .align3__picture:hover {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .description33 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .description33__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description33__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .description33__paragraph3 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align3__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+  }
+
+  .align3__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
+  }
+
+  .cities4 {
+    max-width: 330px;
+    margin-top: 75px;
+  }
+
+  .align4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 105px 92px 219px 605px 78px;
+    grid-template-areas: "title" "d1" "picture" "d2" "button";
+    margin-left: 33.94%;
+  }
+
+  .align4__title {
+    max-height: 37px;
+    grid-area: title;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 109.45%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .description4 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 95.15%;
+  }
+
+  .description4__artist {
+    color: #aaaaaa;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .description4__artist-name {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122.22%;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .align4__picture {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .align4__picture:hover {
+    width: 100%;
+    max-height: 330px;
+    grid-area: picture;
+  }
+
+  .description44 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .description44__paragraph1 {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 0;
+  }
+
+  .description44__paragraph2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .align4__NFT {
+    grid-area: button;
+    width: 90%;
+    font-size: 14px;
+    line-height: 290%;
+    margin-top: 30px;
+  }
+
+  .align4__NFT:hover {
+    grid-area: button;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 290%;
   }
 }
 
@@ -823,6 +2033,342 @@
     margin-left: 210.66%;
     font-size: 14px;
     line-height: 114.29%;
+  }
+
+  .mosaic {
+    max-width: 986px;
+    max-height: 747.5px;
+    margin-top: 88px;
+  }
+  .mosaic__align {
+    width: 100%;
+    margin-left: 1.72%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .mosaic__align_item {
+    max-height: 238.5px;
+  }
+
+  .cities1 {
+    max-width: 853.5px;
+    margin-top: 88px;
+  }
+
+  .align1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 158px 407px 96px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 34px;
+    margin-left: 10.08%;
+  }
+
+  .align1__title {
+    width: 98.266%;
+    max-height: 46px;
+    font-size: 57px;
+    line-height: 107%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .align1__picture {
+    width: 97.44%;
+    max-height: 400px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align1__picture:hover {
+    width: 97.44%;
+    max-height: 400px;
+  }
+  .align1__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align1__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description1 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: 0;
+    margin-top: 45px;
+  }
+
+  .description1__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description1__artist-name {
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 129.41%;
+  }
+
+  .description11 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description11__paragraph1 {
+    font-size: 17px;
+  }
+
+  .description11__paragraph2 {
+    font-size: 17px;
+  }
+
+  .cities2 {
+    max-width: 853.5px;
+    margin-top: 76px;
+  }
+
+  .align2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 115px 407px 105.52px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 32.5px;
+    margin-left: 10.08%;
+  }
+
+  .align2__title {
+    width: 98.266%;
+    font-size: 57px;
+    line-height: 107%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .align2__picture {
+    width: 97.44%;
+    max-height: 400px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align2__picture:hover {
+    width: 97.44%;
+    max-height: 400px;
+  }
+  .align2__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align2__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description2 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .description2__artist {
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .description2__artist-name {
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 129.41%;
+  }
+
+  .description22 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description22__paragraph1 {
+    font-size: 17px;
+  }
+
+  .description22__paragraph2 {
+    font-size: 17px;
+  }
+
+  .cities3 {
+    max-width: 853.5px;
+    margin-top: 76px;
+  }
+
+  .align3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 158px 407px 305.5px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 32.5px;
+    margin-left: 10.08%;
+  }
+
+  .align3__title {
+    width: 98.266%;
+    font-size: 57px;
+    line-height: 107%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .align3__picture {
+    width: 97.44%;
+    max-height: 400px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align3__picture:hover {
+    width: 97.44%;
+    max-height: 400px;
+  }
+  .align3__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align3__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description3 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .description3__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description3__artist-name {
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 129.41%;
+  }
+
+  .description33 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description33__paragraph1 {
+    font-size: 17px;
+  }
+
+  .description33__paragraph2 {
+    font-size: 17px;
+  }
+
+  .description33__paragraph3 {
+    font-size: 17px;
+  }
+
+  .cities4 {
+    max-width: 853.5px;
+    margin-top: 76px;
+  }
+
+  .align4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 158px 265px 238px;
+    grid-template-areas: "title d1" "picture d2" "button d2";
+    column-gap: 34px;
+    margin-left: 10.08%;
+  }
+
+  .align4__title {
+    width: 98.266%;
+    max-height: 46px;
+    font-size: 57px;
+    line-height: 107%;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .align4__picture {
+    width: 97.44%;
+    max-height: 400px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .align4__picture:hover {
+    width: 97.44%;
+    max-height: 400px;
+  }
+  .align4__NFT {
+    width: 80.27%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .align4__NFT:hover {
+    width: 83.52%;
+  }
+
+  .description4 {
+    color: #ffffff;
+    grid-area: d1;
+    width: 101.73%;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .description4__artist {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .description4__artist-name {
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 129.41%;
+  }
+
+  .description44 {
+    color: #ffffff;
+    grid-area: d2;
+    width: 101.73%;
+    margin-left: -6px;
+  }
+
+  .description44__paragraph1 {
+    font-size: 17px;
+  }
+
+  .description44__paragraph2 {
+    font-size: 17px;
   }
 }
 

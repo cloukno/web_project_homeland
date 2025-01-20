@@ -1,0 +1,20 @@
+.mosaic {
+  max-width: 1184px;
+  max-height: 442px;
+  margin-top: 118px;
+}
+
+.mosaic__align {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+  margin-left: 3.63%;
+}
+
+.mosaic__align_item {
+  max-height: 213px;
+  margin-left: 0;
+}
