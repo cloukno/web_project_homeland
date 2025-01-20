@@ -1,0 +1,26 @@
+.description1 {
+  color: #ffffff;
+  grid-area: d1;
+  width: 100%;
+}
+
+.description1__artist {
+  color: #aaaaaa;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 85px;
+  margin-left: 0;
+}
+
+.description1__artist-name {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 8px;
+  margin-left: 0;
+  margin-bottom: 0px;
+}

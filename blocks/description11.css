@@ -1,0 +1,27 @@
+.description11 {
+  color: #ffffff;
+  grid-area: d2;
+  width: 100%;
+}
+
+.description11__paragraph1 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.description11__paragraph2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 0;
+}

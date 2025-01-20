@@ -1,0 +1,38 @@
+.description33 {
+  color: #ffffff;
+  grid-area: d2;
+  width: 100%;
+}
+
+.description33__paragraph1 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.description33__paragraph2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 0;
+}
+
+.description33__paragraph3 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 0;
+}
