@@ -15,7 +15,8 @@
   width: 12.55%;
   max-height: 32px;
   margin-top: 34px;
-  margin-left: 245.02%;
+  align-self: center;
+  margin-left: 45%;
   margin-bottom: 0;
 }
 
@@ -23,5 +24,6 @@
   width: 100%;
   max-height: 14.84px;
   margin-top: 22px;
-  margin-left: 201.3%;
+  align-self: center;
+  margin-left: 45%;
 }
